@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
       "projectName": "API_CRUD_NET6",
-      "projectPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\API_CRUD_NET6\\API_CRUD_NET6\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

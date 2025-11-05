@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("API_CRUD_NET6")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78f03d9a5baacf7515bfa585a0c4b57b049c00d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fcca98f32130dca8c040833075e32b27fc563f4")]
 [assembly: System.Reflection.AssemblyProductAttribute("API_CRUD_NET6")]
 [assembly: System.Reflection.AssemblyTitleAttribute("API_CRUD_NET6")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

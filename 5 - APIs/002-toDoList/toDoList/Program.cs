@@ -1,34 +1,25 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+// Habilita o uso de Controllers no projeto
+builder.Services.AddControllers();
+
+// 1. ADICIONE ESTA LINHA PARA LIBERAR O CORS:
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowVueApp", policy =>
+    {
+        policy.WithOrigins("http://localhost:5173") // Porta padrão do Vue/Vite
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
+// 2. ADICIONE ESTA LINHA PARA USAR O CORS (ANTES DO MAPCONTROLLERS):
+app.UseCors("AllowVueApp");
 
-app.UseHttpsRedirection();
-
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-app.MapGet("/weatherforecast", () =>
-{
-    var forecast = Enumerable.Range(1, 5).Select(index =>
-        new WeatherForecast
-        (
-            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-            Random.Shared.Next(-20, 55),
-            summaries[Random.Shared.Next(summaries.Length)]
-        ))
-        .ToArray();
-    return forecast;
-});
+// Mapeia as rotas dos Controllers para a internet
+app.MapControllers();
 
 app.Run();
-
-internal record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-{
-    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-}

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\toDoList\\toDoList\\toDoList.csproj": {}
+    "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\002-toDoList\\toDoList\\toDoList.csproj": {}
   },
   "projects": {
-    "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\toDoList\\toDoList\\toDoList.csproj": {
+    "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\002-toDoList\\toDoList\\toDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\toDoList\\toDoList\\toDoList.csproj",
+        "projectUniqueName": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\002-toDoList\\toDoList\\toDoList.csproj",
         "projectName": "toDoList",
-        "projectPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\toDoList\\toDoList\\toDoList.csproj",
+        "projectPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\002-toDoList\\toDoList\\toDoList.csproj",
         "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\toDoList\\toDoList\\obj\\",
+        "outputPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\002-toDoList\\toDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

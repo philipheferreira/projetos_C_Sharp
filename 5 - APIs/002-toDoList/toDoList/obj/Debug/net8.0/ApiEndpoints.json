@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "toDoList.Controllers.TodoItemsController",
+    "Method": "GetTodasTarefas",
+    "RelativePath": "api/TodoItems",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[toDoList.Models.TodoItem, toDoList, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "toDoList.Controllers.TodoItemsController",
+    "Method": "CriarTarefa",
+    "RelativePath": "api/TodoItems",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "novaTarefa",
+        "Type": "toDoList.Models.TodoItem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "toDoList.Models.TodoItem",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

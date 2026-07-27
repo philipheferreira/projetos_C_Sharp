@@ -8,7 +8,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowVueApp", policy =>
     {
-        policy.WithOrigins("http://localhost:8080") // Porta padrão do Vue CLI versao 2
+        policy.WithOrigins("http://localhost:8080", "http://localhost:8081") // Porta padrão do Vue CLI versao 2
               .AllowAnyHeader()
               .AllowAnyMethod();
     });

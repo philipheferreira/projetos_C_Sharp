@@ -437,19 +437,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\phili\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
+      "projectUniqueName": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\001-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
       "projectName": "API_CRUD_NET6",
-      "projectPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Documents\\estudo\\programação\\C#\\projetos\\projetos_C_Sharp\\5 - APIs\\1-API_CRUD_NET6\\API_CRUD_NET6\\obj\\",
+      "projectPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\001-API_CRUD_NET6\\API_CRUD_NET6\\API_CRUD_NET6.csproj",
+      "packagesPath": "C:\\Users\\phili\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\001-API_CRUD_NET6\\API_CRUD_NET6\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\phili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -475,7 +480,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.300"
     },
     "frameworks": {
       "net6.0": {
@@ -505,7 +511,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

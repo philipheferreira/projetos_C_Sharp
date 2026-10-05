@@ -1,0 +1,100 @@
+Caso nao tenha, sera necessario baixar o .NET SDK da versao necessaria, nesse caso irei
+utilizar a versao .NET 8+ que ja existe.
+
+Criar projeto usando o visual studio 2022.
+
+Selecione "API Web do ASP.NET Core" (ASP.NET Core Web API) com a linguagem C#
+
+habilitar uso de controladores
+
+Passo 2: O modelo (sua "classe" de domínio)
+Crie a pasta Models e o arquivo Tarefa.cs:
+
+namespace TodoApi.Models;
+
+public class Tarefa
+{
+    public int Id { get; set; }
+    public string Titulo { get; set; } = string.Empty;
+    public bool Concluida { get; set; }
+    public DateTime DataCriacao { get; set; }
+}
+
+Passo 3: O Controller (o coração da API)
+O controller recebe as requisições HTTP e responde. Repare como cada método 
+corresponde a um verbo HTTP:
+
+using Microsoft.AspNetCore.Mvc;
+using TodoApi.Models;
+
+namespace TodoApi.Controllers;
+
+[ApiController]
+[Route("api/[controller]")] // rota: api/tarefas
+public class TarefasController : ControllerBase
+{
+    private static readonly List<Tarefa> _tarefas = new();
+    private static int _proximoId = 1;
+
+    [HttpGet]
+    public ActionResult<IEnumerable<Tarefa>> Listar() => Ok(_tarefas);
+
+    [HttpGet("{id}")]
+    public ActionResult<Tarefa> BuscarPorId(int id)
+    {
+        var tarefa = _tarefas.FirstOrDefault(t => t.Id == id);
+        return tarefa is null ? NotFound() : Ok(tarefa);
+    }
+
+    [HttpPost]
+    public ActionResult<Tarefa> Criar(Tarefa tarefa)
+    {
+        tarefa.Id = _proximoId++;
+        tarefa.DataCriacao = DateTime.Now;
+        _tarefas.Add(tarefa);
+        return CreatedAtAction(nameof(BuscarPorId), new { id = tarefa.Id }, tarefa);
+    }
+
+    [HttpPut("{id}")]
+    public IActionResult Atualizar(int id, Tarefa tarefaAtualizada)
+    {
+        var tarefa = _tarefas.FirstOrDefault(t => t.Id == id);
+        if (tarefa is null) return NotFound();
+
+        tarefa.Titulo = tarefaAtualizada.Titulo;
+        tarefa.Concluida = tarefaAtualizada.Concluida;
+        return NoContent();
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Deletar(int id)
+    {
+        var tarefa = _tarefas.FirstOrDefault(t => t.Id == id);
+        if (tarefa is null) return NotFound();
+
+        _tarefas.Remove(tarefa);
+        return NoContent();
+    }
+}
+
+Conceitos importantes nesse código
+
+| Conceito | O que faz |
+|---|---|
+| `[Route]` | Define a URL do controller (`api/tarefas`) |
+| `[HttpGet]`, `[HttpPost]`... | Mapeiam os verbos HTTP para os métodos |
+| `Ok()`, `NotFound()`, `NoContent()` | Retornam os *status codes* HTTP (200, 404, 204) |
+| `static List<Tarefa>` | Guarda os dados **em memória** — os dados somem quando a aplicação para (por isso o próximo passo é um banco de dados) |
+
+
+Como testar
+Rode com dotnet run, abra o Swagger e teste os endpoints. 
+Depois instale o Postman ou Insomnia, que são as ferramentas que você usará 
+no dia a dia.
+
+
+
+
+
+
+

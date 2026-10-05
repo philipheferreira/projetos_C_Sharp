@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\phili\\documents\\estudo\\c-sharp\\projetos\\projetos_c_sharp\\5 - apis\\listadetarefas\\listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\phili\\documents\\estudo\\c-sharp\\projetos\\projetos_c_sharp\\5 - apis\\listadetarefas\\listadetarefas\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\models\\tarefa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\phili\\documents\\estudo\\c-sharp\\projetos\\projetos_c_sharp\\5 - apis\\listadetarefas\\listadetarefas\\controllers\\listadetarefasitenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA341D93-772C-411D-B92D-F002C94726DE}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\controllers\\listadetarefasitenscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Program.cs",
+              "ToolTip": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Program.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T16:01:23.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListaDeTarefasItensController.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\ListaDeTarefasItensController.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Controllers\\ListaDeTarefasItensController.cs",
+              "ToolTip": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Controllers\\ListaDeTarefasItensController.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Controllers\\ListaDeTarefasItensController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwDMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T15:42:28.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarefa.cs",
+              "DocumentMoniker": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Models\\Tarefa.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Models\\Tarefa.cs",
+              "ToolTip": "C:\\Users\\phili\\Documents\\estudo\\C-Sharp\\projetos\\projetos_C_Sharp\\5 - APIs\\ListaDeTarefas\\ListaDeTarefas\\Models\\Tarefa.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Models\\Tarefa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-05T15:40:38.345Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
